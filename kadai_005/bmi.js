@@ -8,5 +8,5 @@ const heightInMeters = height / 100;
 // BMI = 体重(kg) ÷ 身長(m)²
 const bmi = weight / (heightInMeters * heightInMeters);
 
-// 結果を表示
-document.write("BMI: " + bmi.toFixed(2));
+// 結果をコンソールに出力
+console.log(bmi);
